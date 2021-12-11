@@ -6,9 +6,9 @@ from Player import Player
 
 pygame.init()
 # create the screen
-screen = pygame.display.set_mode((800, 600))
+screen = pygame.display.set_mogide((800, 600))
 # Design
-pygame.display.set_caption('project:space invader')
+pygame.display.set_caption('project:space  ')
 background = pygame.image.load('background.png')
 
 player = Player()
