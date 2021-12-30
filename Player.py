@@ -25,7 +25,7 @@ class Player:
             self.y += self.val
 
     def fire(self, screen):
-        bullet = Bullet(self.x, self.y)
+        bullet = Bullet(self.x + 15, self.y)
         bullet.set_fire(True)
         Bullet.bullets.append(bullet)
         for bullet in Bullet.bullets:
